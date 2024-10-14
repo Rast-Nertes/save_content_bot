@@ -65,7 +65,7 @@ async def download_youtube_video(link: str) -> str:
         'socket_timeout': 30,
         'noplaylist': True,
         'verbose': True,
-        'proxy': 'http://huLQEb:zkhvYN@168.227.141.6:8000'
+        'proxy': 'PROXY'
     }
 
     # Создаём директорию, если её нет
